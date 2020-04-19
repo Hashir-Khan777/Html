@@ -1,0 +1,88 @@
+#container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.field {
+    border: 1px solid black;
+    margin: 0 auto;
+    border-radius: 12px;
+    min-width: 30%;
+    width: 80%;
+    margin-bottom: 15px;
+    height: 80px;
+    background-color: blueviolet;
+    font-size: 22px;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 16px;
+}
+
+input[type="text"] {
+    border: 1px solid;
+}
+
+input[type="text"]:focus {
+    border-radius: 10px;
+}
+
+input[type="email"] {
+    border: 1px solid;
+}
+
+input[type="email"]:focus {
+    border-radius: 10px;
+}
+
+input[type="date"] {
+    border: 1px solid;
+}
+
+input[type="date"]:focus {
+    border-radius: 10px;
+}
+
+input[type="number"] {
+    border: 1px solid;
+}
+
+input[type="number"]:focus {
+    border-radius: 10px;
+}
+
+fieldset {
+    border: none;
+}
+
+select {
+    border: 1px solid;
+}
+
+select:focus {
+    border-radius: 10px;
+}
+
+#bttn {
+    width: 80%;
+    margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+    background-color: blueviolet;
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+input[type="reset"]:hover {
+    background-color: blueviolet;
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 10px;
+}

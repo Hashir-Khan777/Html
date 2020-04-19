@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <img src="images/img 1.jpeg" alt="logo" width="100%">
+        <h1> STUDENT REGISTRATION FORM </h1>
+    </div>
+    <div>
+        <form action="http://www.saylaniwelfare.net/home" method="get">
+            <div class="field">
+                <fieldset>
+                    <label for="first name">
+                        <legend> FIRST NAME </legend>
+                        <input type="text" placeholder="Enter first name" size="20" maxlength="30" required>
+                    </label>
+                </fieldset>
+            </div>
+            <div class="field">
+                <fieldset>
+                    <label for="last name">
+                        <legend> LAST NAME </legend>
+                        <input type="text" placeholder="Enter last name" size="20 " maxlength="30" required>
+                    </label>
+                </fieldset>
+            </div>
+            <div class="field">
+                <fieldset>
+                    <label for="date of birth">
+                        <legend> DATE OF BIRTH </legend>
+                        <input type="date" required>
+                    </label>
+                </fieldset>
+            </div>
+            <div class="field">
+                <fieldset>
+                    <label for="email id">
+                        <legend> EMAIL ID </legend>
+                        <input type="email" placeholder="Enter email address" size="20" required>
+                    </label>
+                </fieldset>
+            </div>
+            <div class="field">
+                <fieldset>
+                    <label for="mobile number">
+                        <legend> MOBILE NUMBER </legend>
+                        <input type="number" placeholder="Enter mobile number">
+                    </label>
+                </fieldset>
+            </div>
+            <div class="field">
+                <fieldset>
+                    <label for="gender">
+                        <legend> GENDER </legend>
+                        <label for="Male">
+                            Male <input type="radio" name="gender" value="male" required>
+                        </label>
+                        <label for="Female">
+                            Female <input type="radio" name="gender" value="female">
+                        </label>
+                    </label>
+                </fieldset>
+            </div>
+            <div class="field">
+                <fieldset>
+                    <label for="city">
+                        <legend> CITY </legend>
+                        <input type="text" placeholder="Enter city name" size="20" maxlength="30" required>
+                    </label>
+                </fieldset>
+            </div>
+            <div class="field">
+                <fieldset>
+                    <label for="country">
+                        <legend> COUNTRY </legend>
+                        <input type="text" placeholder="Enter country name" size="20" maxlength="30" required>
+                    </label>
+                </fieldset>
+            </div>
+            <div class="field">
+                <fieldset>
+                    <label for="qualification">
+                        <legend> QUALIFICATION </legend>
+                        <select name="qualification" required>
+                            <option value="select"> Select </option>
+                            <option value="Matriculation"> Matriculation </option>
+                            <option value="Enter"> Enter </option>
+                            <option value="Graduation"> Graduation </option>
+                            <option value="Masters"> Masters </option>
+                        </select>
+                    </label>
+                </fieldset>
+            </div>
+            <div class="field">
+                <fieldset>
+                    <label for="courses">
+                        <legend> COURSES </legend>
+                        <select name="courses" required>
+                            <option value="select"> Select </option>
+                            <option value="CCA"> CCA </option>
+                            <option value="CCO"> CCO </option>
+                            <option value="Graphic designing"> Graphic designing </option>
+                            <option value="Project management"> Project management </option>
+                        </select>
+                    </label>
+                </fieldset>
+            </div>
+            <div id="bttn">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
